@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[Email enter by user: un1882@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Email present in the app: un1882@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Same email is present]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94745" started-at="2020-03-04T09:25:35Z" finished-at="2020-03-04T09:27:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94745" started-at="2020-03-04T09:25:35Z" finished-at="2020-03-04T09:27:10Z">
+      <class name="org.bb.testPom.TestAceInvoice">
+        <test-method status="PASS" signature="lBrowser()[pri:0, instance:org.bb.testPom.TestAceInvoice@2ef5e5e3]" name="lBrowser" is-config="true" duration-ms="32869" started-at="2020-03-04T09:25:35Z" finished-at="2020-03-04T09:26:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lBrowser -->
+        <test-method status="PASS" signature="run()[pri:0, instance:org.bb.testPom.TestAceInvoice@2ef5e5e3]" name="run" duration-ms="61572" started-at="2020-03-04T09:26:08Z" finished-at="2020-03-04T09:27:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Email enter by user: un1882@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Email present in the app: un1882@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Same email is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="cBrowser()[pri:0, instance:org.bb.testPom.TestAceInvoice@2ef5e5e3]" name="cBrowser" is-config="true" duration-ms="253" started-at="2020-03-04T09:27:10Z" finished-at="2020-03-04T09:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cBrowser -->
+      </class> <!-- org.bb.testPom.TestAceInvoice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
